@@ -1,0 +1,12 @@
+{
+    "name": "asus/phpcrud",
+    "description": "php jwt",
+    "autoload": {
+        "psr-4": {
+            "Asus\\Phpcrud\\": "src/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.4"
+    }
+}

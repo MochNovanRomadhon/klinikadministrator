@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+    font-family:  "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #f3f2f2;
+    margin: 0;
+    display: flex;
+    padding-right: 120px;
+    overflow: hidden;
+}
+
+.content{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.box {
+    height: 130px;
+    width: 220px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #376ab731;
+    float: right;
+    margin: 12px;
+    
+  }
+
+  .box .dash{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    color: #376ab7;
+    border: none;
+
+    
+  }
+
+  .box i {
+    font-size: 42px;
+    padding-top: 29px;
+    padding-right: 25px;
+    float: right;
+    color: #376ab7;
+  }
+  .box-description {
+    color: #2c2c2d8b;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  
+
+.navtop {
+    background-color: #376ab7;
+    height: 750px;
+    width: 250px;
+    box-shadow: 0px 0px 20px rgb(29, 29, 29) ;
+    
+}
+.navtop div {
+    height: 100%;
+    padding-right: 40px;
+}
+.navtop div h1, .navtop div a {
+    display: block;
+    padding-top: 20px;
+}
+.navtop div h1 {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    color: #ecf0f6;
+    font-weight: bold;
+}
+.navtop div a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #c5d2e5;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+}
+.navtop div .home {
+    padding-right: 100px;
+}
+.navtop div .logout {
+    color: #c5d2e5;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+}
+.navtop div a i {
+    padding: 0px 10px 0 0;
+    font-size: 18px;
+}
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 40px;
+    border-bottom: 1px solid #ebebeb;
+    color: #666666;
+}
+.read .create-contact {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 15px 0;
+    background-color: #376ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-radius: 5px;
+
+}
+.read .create-contact:hover {
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+}
+.read .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+.read .pagination a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a5a7a9;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 15px 0 15px 5px;
+}
+.read .pagination a:hover {
+    background-color: #999b9d;
+}
+
+.read table {
+    width: 110%;
+    padding-top: 30px;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 20px rgba(25, 25, 25, 0.249) ;
+}
+.read table thead {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #d3dae0;
+}
+.read table thead td {
+    padding: 10px;
+    font-weight: bold;
+    color: #999999;
+    font-size: 14px;
+}
+.read table tbody tr {
+    border-bottom: 1px solid #d3dae06c;
+}
+/* .read table tbody tr:nth-child(even) {
+    background-color: #fbfcfc;
+} */
+.read table tbody tr{
+background-color: #fbfcfc;
+}
+.read table tbody tr:hover {
+    background-color: #e8e8e8;
+}
+.read table tbody tr td {
+    padding: 15px;
+    color: #3d3d3d;
+}
+.read table tbody tr td:nth-child(1) {
+    color: #939393;
+}
+.read table tbody tr td.actions {
+    padding: 8px;
+    text-align: right;
+}
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions .trash {
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 12px;
+}
+.read table tbody tr td.actions .trash {
+    background-color: #376ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+.read table tbody tr td.actions .trash:hover {
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+}
+.read table tbody tr td.actions .edit {
+  
+    background-color: #376ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    
+    
+}
+
+.read table tbody tr td.actions .rsp{
+    background-color: #376ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 9px 12px;
+    display: inline-flex;
+}
+
+.read table tbody tr td.actions .rsp i{
+    font-size: 14px;
+}
+
+.read table tbody tr td.actions .rsp:hover{
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+}
+
+.read table tbody tr td.actions .kunjung{
+    background-color: #376ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 9px 12px;
+    display: inline-flex;
+}
+
+.read table tbody tr td.actions .kunjung i{
+    font-size: 14px;
+}
+.read table tbody tr td.actions .kunjung:hover{
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+}
+.read table tbody tr td.actions .edit:hover {
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+    
+}
+.cetak h1{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.cetak table{
+    width: 100%;
+    border-style: solid;
+    border-width: medium;
+}
+.cetak table thead td {
+    padding: 10px;
+    color: #494949;
+    font-size: 14px;
+    border-bottom: 1px solid #7272726c;
+}
+.cetak table tbody tr {
+    border-bottom: 1px solid #7272726c;
+}
+.cetak table tbody tr td {
+    padding: 15px;
+    color: #3d3d3d;
+}
+.cetak table tbody tr{
+    font-size: 16px;
+    background-color: #ffffff;
+}
+.update form {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+.update form label {
+    width: 400px;
+    padding: 10px 0;
+    margin-right: 25px;
+}
+.update form input {
+    padding: 10px;
+    width: 400px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+.update form  {
+    padding: 10px;
+    width: 1000px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+.update form select{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.update form input[type="radio"]{
+    width:auto;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+.update form input[type="submit"] {
+    display: block;
+   
+    background-color: #376ab7;
+    border: 1px solid #ffffff;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    width: 200px;
+  margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+}
+.delete .yesno {
+    display: flex;
+}
+.delete .yesno a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #376ab7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 15px 10px 15px 0;
+}
+.delete .yesno a:hover {
+    background-color: #ffffff;
+    border: 1px solid #376ab7;
+    color: #376ab7;
+}

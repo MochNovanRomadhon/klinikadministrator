@@ -1,0 +1,36 @@
+
+body{
+    padding:100px;
+    background-color: #3263d6;
+}
+h1{
+    font-weight: 600;
+    color: #313131;
+}
+.container{
+    background-color: aliceblue;
+    max-width: 500px;
+    margin:0 auto;
+    padding:50px;
+    border-radius: 10px
+}
+.form-group{
+    height: 55px;
+}
+
+.btn-primary{
+    background-color: #3263d6;
+}
+.btn-primary:hover{
+    background-color: #628ef4;
+    border: none;
+}
+a{
+    color: #225fee;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #225fee;
+}
